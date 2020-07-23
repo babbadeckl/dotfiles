@@ -105,6 +105,3 @@ alias update_system="sudo apt update -y && sudo apt full-upgrade -y && sudo apt 
 alias zshconfig="vim ~/.zshrc"
 alias ultrawideHDMI="~/UltrawideMonitor/change_uws_resolution.sh"
 alias ultrawideDP="~/UltrawideMonitor/change_uws_resolution_DP.sh"
-alias wifi_pw="sed -n 2p ~/Documents/pw"
-alias router_pw="sed -n 1p ~/Documents/pw"
-
