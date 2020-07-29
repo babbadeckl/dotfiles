@@ -1,5 +1,6 @@
 " Don't try to be vi compatible
 set nocompatible
+set sessionoptions-=options
 
 " Install and run vim-plug on first run
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -27,9 +28,9 @@ Plug 'morhetz/gruvbox'
 
 Plug 'ajh17/VimCompletesMe'
 
-Plug 'git@github.com:mileszs/ack.vim'
+Plug 'mileszs/ack.vim'
 
-Plug 'git@github.com:kien/ctrlp.vim'
+Plug 'vim-scripts/ctrlp.vim'
 
 call plug#end()
 
